@@ -19,6 +19,8 @@ cp pdf.worker.mjs pdf.worker.js
 ![image](https://github.com/ddkhanh/bookstack-pdf-viewer/assets/5151868/e83e1069-e81f-48ec-8a1e-066fa21f5a8e)
 
 ### 2.2 Config nginx to treat the mjs file as javascript 
+All of the below steps should be executed in bookstack docker container
+
 ```bash
 vi /etc/nginx/mime.types
 ```
