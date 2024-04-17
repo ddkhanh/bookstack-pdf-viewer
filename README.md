@@ -104,3 +104,7 @@ Then reload the nginx config
 
 ![image](https://github.com/ddkhanh/bookstack-pdf-viewer/assets/5151868/3b7efd2e-f413-48fb-a148-ab05e821c761)
 
+# Appendix 
+If you want to preserve the changes, which is helpful for those who want to regularly upgrade the BookStack image, please follow the instructions mentioned here
+
+[How to deal with problem on docker image update](https://github.com/ddkhanh/bookstack-pdf-viewer/issues/1#issuecomment-2048845117)
