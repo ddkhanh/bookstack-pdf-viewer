@@ -71,7 +71,7 @@ Then reload the nginx config
           },
           onSubmit: function(e) {
             // Insert content when the window form is submitted
-            editor.insertContent(`<iframe id="pdf-viewer" title="PDF viwer" src="/pdfjs/web/viewer.html?file=${e.getData().pdfurl}" width="100%" height="100vh"></iframe>`);
+            editor.insertContent(`<iframe id="pdf-viewer" title="PDF viwer" src="/pdfjs/web/viewer.html?file=${e.getData().pdfurl}" width="100%" height="450vh"></iframe>`);
             e.close();
           },
           buttons: [
@@ -105,6 +105,13 @@ Then reload the nginx config
 ![image](https://github.com/ddkhanh/bookstack-pdf-viewer/assets/5151868/3b7efd2e-f413-48fb-a148-ab05e821c761)
 
 # Appendix 
+## Persit changes
 If you want to preserve the changes, which is helpful for those who want to regularly upgrade the BookStack image, please follow the instructions mentioned here
 
 [How to deal with problem on docker image update](https://github.com/ddkhanh/bookstack-pdf-viewer/issues/1#issuecomment-2048845117)
+
+## Shadow effect
+A small tweak if you want to strengthen the shadow to make the page appear closer to the reader and focus more on the content
+![image](https://github.com/ddkhanh/bookstack-pdf-viewer/assets/5151868/7f865134-2ef6-44ff-90f0-6c29f62804f5)
+
+
