@@ -112,6 +112,29 @@ If you want to preserve the changes, which is helpful for those who want to regu
 
 ## Shadow effect
 A small tweak if you want to strengthen the shadow to make the page appear closer to the reader and focus more on the content
+
+```css
+<style>
+.page-content clearfix {
+ font-size: 14px;
+}
+#bkmrk-page-title {
+    font-size: 35px;
+}
+.card {
+    background-color: #fff;
+    box-shadow: 0 20px 60px -1px rgba(0,0,0,.1);
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+
+.tri-layout-middle-contents {
+    max-width: unset;
+}
+</style>
+```
+
 ![image](https://github.com/ddkhanh/bookstack-pdf-viewer/assets/5151868/7f865134-2ef6-44ff-90f0-6c29f62804f5)
 
 
